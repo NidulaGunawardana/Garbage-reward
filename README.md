@@ -6,7 +6,7 @@
 
 This ensures whether device is connected to wifi or not
 
-`{
+```
     if (WiFi.status() != WL_CONNECTED) {
       WiFiManager wifiManager;
 
@@ -15,6 +15,6 @@ This ensures whether device is connected to wifi or not
       Serial.println("connected :)");
       wifiManager.setBreakAfterConfig(true);
     }
-}`
+```
 
  ### **Put the setup and other libraries and defined codes as it is.**
