@@ -11,9 +11,9 @@ $t = date("H:i:s");
 
 
 
-if (!empty($_GET['mobile']) && !empty($_GET['reward'])) {
-    $mobile = $_GET['mobile'];
-    $reward = $_GET['reward'];
+if (!empty($_POST['mobile']) && !empty($_POST['reward'])) {
+    $mobile = $_POST['mobile'];
+    $reward = $_POST['reward'];
 
 
     $user_search = Database::s("SELECT * FROM `user` WHERE `mobile_no` = '" . $mobile . "';");

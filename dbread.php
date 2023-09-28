@@ -3,7 +3,7 @@
 
 require "connection.php";
 
-$mobile = $_GET["mobile"];
+$mobile = $_POST["mobile"];
 
 $reward = 0;
 
