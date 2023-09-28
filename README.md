@@ -16,5 +16,10 @@ This ensures whether device is connected to wifi or not
       wifiManager.setBreakAfterConfig(true);
     }
 ```
+in these places assign the mobile and the reward need to be added
+```
+    String mobile = "0778482017";  // Enter mobile number here
+    float reward = 150.50;         // enter reward here
+```
 
  ### **Put the setup and other libraries and defined codes as it is.**
